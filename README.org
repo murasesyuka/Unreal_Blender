@@ -1,0 +1,13 @@
+* fbx								       :b2.74: :ue4.76:
+
+** from Blender to UE4
+
+*** Blender Modifer
+    
+    | b3d Modifer | to .fbx is OK/NG | etc                                   |
+    |-------------+------------------+---------------------------------------|
+    | Edge Split  | OK               | select Edge. and Ctrl-e, Mark Sharp   |
+    | Mirror      | OK               |                                       |
+    | Subdiv...   | OK               | Subdivisions Use View Num. not Render |
+
+    
