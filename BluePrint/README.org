@@ -1,0 +1,19 @@
+* 弾道の放物線							    :UE4.9.2:
+
+  目的：放物線を描く弾道をつくりたい
+  
+** 弾丸SpawnActorへの初期ベクトル設定
+
+   目的：カメラの角度と、砲撃の角度をリンクさせたい
+
+   [[./img/PK05_HoudaiKakudo.jpg][砲撃角度]
+
+** 弾丸をヘッドを、常に移動方向と一致させる
+
+   課題：上に放った矢がお尻から落ちてきたのを、矢尻から落ちてきてほしい
+
+   対応：Projectile/RotationFollowsVelocity/[true]
+
+   [[./img/PK05_HoudaiKakudo.jpg][砲撃角度]
+
+   [[./img/PK05_HoudaiKakudo.jpg][砲撃角度]
