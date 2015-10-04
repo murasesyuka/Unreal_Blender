@@ -8,7 +8,9 @@
    - [[https://twitter.com/murase_syuka/status/593986239973330944][memo my.jp.tweet]]
 
 *** Blender Modifer
-    
+
+    Modifer appleing when export to fbx?
+
     | b3d Modifer | to .fbx is OK/NG | etc                                   |
     |-------------+------------------+---------------------------------------|
     | Edge Split  | OK               | select Edge. and Ctrl-e, Mark Sharp   |
