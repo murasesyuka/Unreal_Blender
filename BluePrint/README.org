@@ -6,14 +6,18 @@
 
    目的：カメラの角度と、砲撃の角度をリンクさせたい
 
-   [[./img/PK05_HoudaiKakudo.jpg][砲撃角度調整]]
+   [[./img/PK05_HoudaiKakudo.jpg]]
 
 ** 弾丸をヘッドを、常に移動方向と一致させる
 
    課題：上に放った矢がお尻から落ちてきたのを、矢尻から落ちてきてほしい
+   
+*** 横っ腹から落ちていて失敗
+    
+    [[./img/PK05_PalaboraNG.jpg]]
 
-   [[./img/PK05_PalaboraNG.jpg][横っ腹から落ちていて失敗]]
+*** 期待通りに頭から落下
 
-   対応：Projectile/RotationFollowsVelocity/[true]
+    対応：Projectile/RotationFollowsVelocity/[true]
 
-   [[./img/PK05_PalaboraOK.jpg][期待通りに頭から落下]]
+    [[./img/PK05_PalaboraOK.jpg]]
