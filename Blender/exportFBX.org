@@ -1,0 +1,20 @@
+* fbx								       :b2.74: :ue4.76:
+
+** from Blender to UE4
+
+   memo
+   
+   - [[http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/Autodesk_FBX][2.72 is old info?]]
+   - [[https://twitter.com/murase_syuka/status/593986239973330944][memo my.jp.tweet]]
+
+*** Blender Modifer
+
+    Modifer appleing when export to fbx?
+
+    | b3d Modifer | to .fbx is OK/NG | etc                                   |
+    |-------------+------------------+---------------------------------------|
+    | Edge Split  | OK               | select Edge. and Ctrl-e, Mark Sharp   |
+    | Mirror      | OK               |                                       |
+    | Subdiv...   | OK               | Subdivisions Use View Num. not Render |
+
+    
