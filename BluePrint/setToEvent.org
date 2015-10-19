@@ -1,0 +1,12 @@
+* 複数のActorに同一Eventを設定					    :ue4.9.2:
+
+  デフォルトでは、優先度高のActorで一回しかEventは処理されない
+  ので、優先度高のActorでEventを、優先度低のActorに流すことを許可する必要がある
+
+  - memo
+    - [[https://twitter.com/taku_nishimu/status/655361014720892928]]
+    - [[https://twitter.com/rarihoma/status/655361234686992385]]
+      - [[https://twitter.com/rarihoma/status/655362674981670912]]
+  - doc
+    - [[http://imoue.hatenablog.com/entry/2015/09/12/230553][入力イベントが複数ある時の優先順位]]
+    - [[https://docs.unrealengine.com/latest/JPN/Gameplay/HowTo/ActorInput/Blueprints/index.html][ブループリントでアクタに入力を設定する方法]]

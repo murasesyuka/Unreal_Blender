@@ -4,3 +4,5 @@
 * BluePrint
 ** rotation follows velocity
    [[./BluePrint/PalaboraOrbit.org][弾道を速度方向と一致]]
+** set to Event on Actors
+   [[./BluePrint/setToEvent.org][複数のActorに同一Eventを設定]]
