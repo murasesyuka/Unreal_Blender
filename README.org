@@ -1,4 +1,8 @@
 * Blender
+
+** Rigging for UE4
+   [[https://forums.unrealengine.com/showthread.php?89305-Blender-UE4-Rigg]]
+
 ** export fbx with blender
    [[./Blender/exportFBX.org][blenderからUE4へのfbx受け渡し]]
 ** tips
