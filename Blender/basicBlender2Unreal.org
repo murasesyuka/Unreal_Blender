@@ -1,0 +1,41 @@
+* blenderとUnrealEngine4の比較
+  - blnederがDCCツール
+  - UE4がゲーム開発統合環境
+  
+** blenderとUE4の機能比較
+   - blender
+     - モデリング
+     - アニメーション
+     - レンダリング
+     - ゲームエンジン(BlenderGameEngine)
+       
+   - UE4
+     - レンダリング
+     - ゲームエンジン
+       - ゲームエンジンエディタ
+	 - 簡易モデリング
+	 - 簡易アニメーション?
+
+** blenderとUE4の言語比較
+   - blender
+     - C++
+     - python
+       
+   - UE4
+     - Unreal C++
+     - BluePrint
+
+* blenderとUE4の相互運用
+
+  blender等のDCCツールで作成したデータを、UE4にもっていく運用
+
+** FBXインポート
+   - スタティックメッシュ
+     静的オブジェクト、背景
+     
+   - スケルタルメッシュ
+     キャラクタ、アニメーション
+
+* 参考
+
+  [[http://qiita.com/housakusleeping/items/d5d8c5a169d5bdedfe10][Qiita : DCCツールを使いたくなってきたでしょ？]]
