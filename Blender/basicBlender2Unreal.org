@@ -42,12 +42,18 @@
    
    ※商用ゲームだとblenderの代わりにMayaや、その他のDCCツールを使用
 
-*** FBXインポート
+*** UE4での3Dオブジェクト分類
+    
     - スタティックメッシュ
       静的オブジェクト、背景など
       
     - スケルタルメッシュ
       キャラクタ、アニメーションモデルなど
+
+*** UE4の標準Rigg
+
+    - [[https://docs.unrealengine.com/latest/JPN/Engine/Content/Tools/MayaRiggingTool/index.html][Maya アニメーション リギング ツールセット]]
+      - [[https://forums.unrealengine.com/showthread.php?89305-Blender-UE4-Rigg][Blender UE4 Rigg]]
 
 * 
 
