@@ -8,7 +8,9 @@
 ** blenderとUnrealEngine4の比較
    - blnederがDCCツール
    - UE4がゲーム開発統合環境
-   
+
+   ※DCCツール : Degital Content Create Tool
+
 *** blenderとUE4の機能比較
     - blender
       - モデリング
@@ -38,6 +40,7 @@
 
    blender等のDCCツールで作成したデータを、UE4にもっていく運用
    
+   ※商用ゲームだとblenderの代わりにMayaや、その他のDCCツールを使用
 
 *** FBXインポート
     - スタティックメッシュ
