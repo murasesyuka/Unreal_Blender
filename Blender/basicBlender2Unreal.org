@@ -1,41 +1,53 @@
-* blenderとUnrealEngine4の比較
-  - blnederがDCCツール
-  - UE4がゲーム開発統合環境
-  
-** blenderとUE4の機能比較
-   - blender
-     - モデリング
-     - アニメーション
-     - レンダリング
-     - ゲームエンジン(BlenderGameEngine)
-       
-   - UE4
-     - レンダリング
-     - ゲームエンジン
-       - ゲームエンジンエディタ
-	 - 簡易モデリング
-	 - 簡易アニメーション?
 
-** blenderとUE4の言語比較
-   - blender
-     - C++
-     - python
-       
-   - UE4
-     - Unreal C++
-     - BluePrint
+* 目次
+  + blenderとUnrealEngine4の比較
+  + blenderとUE4の相互運用
+  + UE4へのfbxインポート
+  + 参考
 
-* blenderとUE4の相互運用
+** blenderとUnrealEngine4の比較
+   - blnederがDCCツール
+   - UE4がゲーム開発統合環境
+   
+*** blenderとUE4の機能比較
+    - blender
+      - モデリング
+      - アニメーション
+      - レンダリング
+      - ゲームエンジン(BlenderGameEngine)
+       	
+    - UE4
+      - レンダリング
+      - ゲームエンジン
+       	- ゲームエンジンエディタ
+	  - 簡易モデリング
+	  - 簡易アニメーション?
 
-  blender等のDCCツールで作成したデータを、UE4にもっていく運用
+*** blenderとUE4の言語比較
+    - blender
+      - C++
+	- CMake
+      - python
+       	
+    - UE4
+      - Unreal C++
+	- ???(.net)
+      - BluePrint
 
-** FBXインポート
-   - スタティックメッシュ
-     静的オブジェクト、背景
-     
-   - スケルタルメッシュ
-     キャラクタ、アニメーション
+** blenderとUE4の相互運用
 
-* 参考
+   blender等のDCCツールで作成したデータを、UE4にもっていく運用
+   
 
-  [[http://qiita.com/housakusleeping/items/d5d8c5a169d5bdedfe10][Qiita : DCCツールを使いたくなってきたでしょ？]]
+*** FBXインポート
+    - スタティックメッシュ
+      静的オブジェクト、背景など
+      
+    - スケルタルメッシュ
+      キャラクタ、アニメーションモデルなど
+
+* 
+
+** 参考
+
+   [[http://qiita.com/housakusleeping/items/d5d8c5a169d5bdedfe10][Qiita : DCCツールを使いたくなってきたでしょ？]]
