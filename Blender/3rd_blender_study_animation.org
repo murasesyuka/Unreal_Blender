@@ -1,0 +1,48 @@
+* before
+
+  参加用にスカラちゃんにwalkingアニメーション付けてみた。
+  けど、IKで付けた手の振りがグキってなっている
+
+  [[./img/scala_walk_v1.gif]]
+
+* after
+
+  手の振りをFKで付け直してみた。
+  後は、勉強会で教えてもらった接地の前後を少し修正。
+
+  [[./img/scala_walk_v2.gif]
+
+** misc tips
+   
+   + ドープシートやグラフエディタでのHomeキーによる全範囲表示
+   + グラフエディタでのvキーによるベジェのアンカー操作
+     
+   + IKの一時的なFKの切り替え(以下記載
+   + モーションパスの表示(以下記載
+   
+** temporarily from IK to FK
+
+   - プロパティ -> ボーンコンストレント -> IK
+     - 影響度を1.0から0.0にすることによって、一時的にFKとして操作できる
+
+   [[./img/scala_tempIK2FK.gif]]
+
+** display to motion path of bone
+   
+   プロパティ -> オブジェクト -> モーションパスで、アニメーション軌道を表示
+   
+   [[./img/scala_motionPath.gif]]
+
+*** demo
+    
+   [[./img/scala_motionPathAnime.gif]]
+
+
+* 勉強会まとめ記事
+  [[http://flash.zzz.heavy.jp/?eid=585131][第3回 Blender勉強会 難波 まとめ+雑記]]
+
+
+* 参考
+  [[https://twitter.com/hashtag/study_anime?src=hash][Maya入門からの講座動画一覧]]
+
+
