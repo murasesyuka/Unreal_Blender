@@ -1,3 +1,6 @@
+#+TITLE: スライドのタイトル
+#+AUTHOR: 名前
+#+EMAIL: hoge@hogehoge.com
 
 * 目次
   + blenderとUnrealEngine4の比較
@@ -5,60 +8,61 @@
   + UE4へのfbxインポート
   + 参考
 
-** blenderとUnrealEngine4の比較
-   - blnederがDCCツール
-   - UE4がゲーム開発統合環境
+* blenderとUnrealEngine4の比較
+  - blnederがDCCツール
+  - UE4がゲーム開発統合環境
 
-   ※DCCツール : Degital Content Create Tool
+  ※DCCツール : Degital Content Create Tool
 
-*** blenderとUE4の機能比較
-    - blender
-      - モデリング
-      - アニメーション
-      - レンダリング
-      - ゲームエンジン(BlenderGameEngine)
-       	
-    - UE4
-      - レンダリング
-      - ゲームエンジン
-       	- ゲームエンジンエディタ
-	  - 簡易モデリング
-	  - 簡易アニメーション?
+** blenderとUE4の機能比較
+   - blender
+     - モデリング
+     - アニメーション
+     - レンダリング
+     - ゲームエンジン(BlenderGameEngine)
+       
+   - UE4
+     - レンダリング
+     - ゲームエンジン
+       - ゲームエンジンエディタ
+	 - 簡易モデリング
+	 - 簡易アニメーション?
 
-*** blenderとUE4の言語比較
-    - blender
-      - C++
-	- CMake
-      - python
-       	
-    - UE4
-      - Unreal C++
-	- ???(.net)
-      - BluePrint
+** blenderとUE4の言語比較
+   - blender
+     - C++
+       - CMake
+     - python
+       
+   - UE4
+     - Unreal C++
+       - ???(.net)
+     - BluePrint
 
-** blenderとUE4の相互運用
 
-   blender等のDCCツールで作成したデータを、UE4にもっていく運用
+* blenderとUE4の相互運用
+
+  blender等のDCCツールで作成したデータを、UE4にもっていく運用
+  
+  ※商用ゲームだとblenderの代わりにMayaや、その他のDCCツールを使用
+
+** UE4での3Dオブジェクト分類
    
-   ※商用ゲームだとblenderの代わりにMayaや、その他のDCCツールを使用
+   - スタティックメッシュ
+     静的オブジェクト、背景モデルなど
+     
+   - スケルタルメッシュ
+     動的オブジェクト、キャラクタアニメーションモデルなど
 
-*** UE4での3Dオブジェクト分類
-    
-    - スタティックメッシュ
-      静的オブジェクト、背景モデルなど
-      
-    - スケルタルメッシュ
-      動的オブジェクト、キャラクタアニメーションモデルなど
+** UE4の標準Rigg
 
-*** UE4の標準Rigg
+   - [[https://docs.unrealengine.com/latest/JPN/Engine/Content/Tools/MayaRiggingTool/index.html][Maya アニメーション リギング ツールセット]]
+     - [[https://forums.unrealengine.com/showthread.php?89305-Blender-UE4-Rigg][Blender UE4 Rigg]]
 
-    - [[https://docs.unrealengine.com/latest/JPN/Engine/Content/Tools/MayaRiggingTool/index.html][Maya アニメーション リギング ツールセット]]
-      - [[https://forums.unrealengine.com/showthread.php?89305-Blender-UE4-Rigg][Blender UE4 Rigg]]
+* UE4へのfbxインポート
 
-** UE4へのfbxインポート
+  TODO
 
-   TODO
+* 参考
 
-** 参考
-
-   [[http://qiita.com/housakusleeping/items/d5d8c5a169d5bdedfe10][Qiita : DCCツールを使いたくなってきたでしょ？]]
+  [[http://qiita.com/housakusleeping/items/d5d8c5a169d5bdedfe10][Qiita : DCCツールを使いたくなってきたでしょ？]]
