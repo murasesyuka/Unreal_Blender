@@ -6,6 +6,9 @@
 ** export fbx with blender
    [[./Blender/exportFBX.org][blenderからUE4へのfbx受け渡し]]
 
+*** LT : export fbx include multi animation from blender to UE4
+    [[./Blender/basicBlender2Unreal.org][発表テキスト資料]]
+
 ** Merge M Quads Poly and N Quads Poly
    [[./Blender/mergeMquadsAndNquads.org][M面とN面の四角ポリゴンの結合]]
 
