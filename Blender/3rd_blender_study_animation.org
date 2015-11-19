@@ -10,7 +10,7 @@
   手の振りをFKで付け直してみた。
   後は、勉強会で教えてもらった接地の前後を少し修正。
 
-  [[./img/scala_walk_v2.gif]
+  [[./img/scala_walk_v2.gif]]
 
 ** misc tips
    
@@ -25,13 +25,13 @@
    - プロパティ -> ボーンコンストレント -> IK
      - 影響度を1.0から0.0にすることによって、一時的にFKとして操作できる
 
-   [[./img/scala_tempIK2FK.gif]]
+   [[./img/scala_tempIK2FK.jpg]]
 
 ** display to motion path of bone
    
    プロパティ -> オブジェクト -> モーションパスで、アニメーション軌道を表示
    
-   [[./img/scala_motionPath.gif]]
+   [[./img/scala_motionPath.jpg]]
 
 *** demo
     
