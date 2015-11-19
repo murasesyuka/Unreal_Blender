@@ -6,12 +6,14 @@
 ** export fbx with blender
    [[./Blender/exportFBX.org][blenderからUE4へのfbx受け渡し]]
 
-** tips
-   [[./Blender/img/testLoopTools.png]]
-   [[https://twitter.com/murase_syuka/status/656852467611635712][3面と1面、2面と1面、5面と3面等の、M対N面の四角ポリゴンのみでの簡易な接続]]
+** Merge M Quads Poly and N Quads Poly
+   [[./Blender/mergeMquadsAndNquads.org][M面とN面の四角ポリゴンの結合]]
+
     
 * BluePrint
+
 ** rotation follows velocity
    [[./BluePrint/PalaboraOrbit.org][弾道を速度方向と一致]]
+
 ** set to Event on Actors
    [[./BluePrint/setToEvent.org][複数のActorに同一Eventを設定]]

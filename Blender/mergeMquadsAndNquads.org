@@ -1,0 +1,7 @@
+* Merge M Quads Poly and N Quads Poly
+
+   [[./img/testLoopTools.png]]
+
+** twitter								 :JP:
+
+   [[https://twitter.com/murase_syuka/status/656852467611635712][3面と1面、2面と1面、5面と3面等の、M対N面の四角ポリゴンのみでの簡易な接続]]
