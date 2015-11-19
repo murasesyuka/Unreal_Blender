@@ -1,5 +1,5 @@
-#+TITLE: スライドのタイトル
-#+AUTHOR: 名前
+#+TITLE: blenderでキャラクタにアニメーションつけて、UE4に持っていくところまで頑張ってみる
+#+AUTHOR: murase_syuka
 #+EMAIL: hoge@hogehoge.com
 
 * 目次
