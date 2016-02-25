@@ -1,0 +1,35 @@
+* FBXでのデータ受け渡し						     :b2.76b: :ue4.10.4:
+  
+** 背景
+   
+   UE4とBlenderで3Dモデルのデータをやりとりするとなると、現状ではFBXを使うことになる。
+   で、現状でのBlenderのFBXインポートとエクスポートについて、どの程度使えるか検証してみる
+   
+** UE4からBlenderへ
+
+   UE4で下記のボーン構造を持ったFBXを、Blenderにもっていってみる。
+
+   [[./img/defaultBoneStruct_UE4_Mannequin_Skeleton.jpg]]
+
+   ボーン構造自体はまあ保持されている。ので、まあ正常に転送できていると言える。
+   ボーンが剣山のように飛び出ているが、がんばれば直せるし＞＜
+   
+   [[./img/importBlender_FromUE4_WithFBX_UE4_Mannequin_Skeleton.jpg]]
+     
+** BlenderからUE4へ
+
+   で、上記で読み込んだGrayManをBlenderから標準のFBXexportでエクスポートして
+   UE4でよみこんだら、以下エラー。
+
+   [[./img/error_ExportBlender_ToUE4_WithFBX_UE4_Mannequin_Skeleton.jpg]]
+
+   ボーンを確認してみると、なんかリーフの末端に、hoge_endってボーンが追加れている。
+   が、まあボーン構造自体は壊れていないので、アニメーションのリターゲット等には影響しない。
+
+   で、blender表示での剣山みたいなボーンになっているようなので、blenderのFBXimportで美味くボーンが読み込めてなかったのだろうか。
+
+   [[./img/exportBlender_ToUE4_WithFBX_UE4_Mannequin_Skeleton.jpg]]
+
+** 結論
+
+   モデルデータのやりとりは、がんばれば大丈夫だ＾＾

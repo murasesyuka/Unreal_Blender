@@ -1,5 +1,21 @@
 * fbx								       :b2.74: :ue4.7.6:
 
+** FBX import/export
+
+   |          | impot FBX(blender default) | import Bos FBX |
+   |----------+----------------------------+----------------|
+   | bone     | acceptable                 | good           |
+   | mesh     | good                       | good           |
+   | material | bad                        | good           |
+   
+   |          | export FBX(blender default) | export Box FBX |
+   |----------+-----------------------------+----------------|
+   | bone     | good                        | -              |
+   | mesh     | good                        | -              |
+   | material | bad                         | -              |
+   
+   ref : [[./SK_Mannequin_ThroughBlender.org][BlenderとUE4でのFBXデータやりとり結果]]
+   
 ** from Blender to UE4
 
    memo
