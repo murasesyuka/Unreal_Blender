@@ -1,4 +1,4 @@
-* fbx								       :b2.74: :ue4.76:
+* fbx								       :b2.74: :ue4.7.6:
 
 ** from Blender to UE4
 
