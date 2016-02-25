@@ -26,3 +26,10 @@
 
 *** set to Event on Actors
     [[./BluePrint/setToEvent.org][複数のActorに同一Eventを設定]]
+
+** Misc
+
+*** Scale UE4 Editor Font Size
+    [[https://forums.unrealengine.com/showthread.php?15158-High-resolution-display-support-for-editor][UE4エディタのフォントサイズ変更]]
+
+
