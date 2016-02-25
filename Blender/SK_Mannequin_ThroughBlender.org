@@ -42,3 +42,21 @@
 
    モデルデータのやりとりは、マテリアルが剥がれる以外は、なんとかなりそう。
    基本blenderからUE4への一方通行だろうし
+
+
+** P.S. 
+
+   [[https://twitter.com/rarihoma/status/702846388409757696]]
+   
+   hoge_endのリーフボーンは、blenderのexport時のオプションで、追加されないように出来るとのこと
+
+   [[./img/not_add_leaf_bone.jpg]]
+
+   上記の箇所に、たしかにそんなオプションがあった。
+   BosFBXでimportしたGrayManのFBXを、オプションを無効にしてFBXexportしてみる。
+
+   ※やっぱりBosFBXで読み込むとボーンが正常に読み込めた＾＾
+   
+   [[./img/importBosFBX_exportDefaultFBX.jpg]]
+
+   すこしエラー等が起こるが、かなり改善した。
