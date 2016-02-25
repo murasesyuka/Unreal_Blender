@@ -11,10 +11,16 @@
 
    [[./img/defaultBoneStruct_UE4_Mannequin_Skeleton.jpg]]
 
+   まずは、UE4のコンテンツブラウザで管理されてりFBXを外部保存する
+   
+   [[./img/UE4_FBX_export.jpg]]
+
+   外部保存したFBXを、Blneder標準のFBXimportで読み込んでみる。
+   
    ボーン構造自体はまあ保持されている。ので、まあ正常に転送できていると言える。
    ボーンが剣山のように飛び出ているが、がんばれば直せるし＞＜
 
-   ってか、Bos FBXでimportした時は、剣山にならず大丈夫だった。
+   ってか、Bos FBXでimportした時は、剣山にならず大丈夫だったので、そちらでも良いかも。
    
    [[./img/importBlender_FromUE4_WithFBX_UE4_Mannequin_Skeleton.jpg]]
      
