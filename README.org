@@ -5,6 +5,7 @@
 
 ** export fbx with blender
    [[./Blender/exportFBX.org][blenderからUE4へのfbx受け渡し]]
+   - [[./Blender/SK_Mannequin_ThroughBlender.org][BlenderとUE4でのFBXデータやりとり結果]]
 
 *** Animation
     - export fbx include multi animation from blender to UE4
