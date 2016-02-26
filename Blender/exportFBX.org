@@ -2,17 +2,21 @@
 
 ** FBX import/export
 
-   |          | impot FBX(blender default) | import Bos FBX |
-   |----------+----------------------------+----------------|
-   | bone     | acceptable                 | good           |
-   | mesh     | good                       | good           |
-   | material | bad                        | good           |
+   - import
+     
+   |          | FBX(blender default) | Bos FBX |
+   |----------+----------------------+---------|
+   | bone     | not good             | good    |
+   | mesh     | good                 | good    |
+   | material | bad                  | bad     |
+
+   - export
    
-   |          | export FBX(blender default) | export Box FBX |
-   |----------+-----------------------------+----------------|
-   | bone     | good                        | -              |
-   | mesh     | good                        | -              |
-   | material | bad                         | -              |
+   |          | FBX(blender default) | Box FBX   |
+   |----------+----------------------+-----------|
+   | bone     | good                 | not good? |
+   | mesh     | good                 | good      |
+   | material | bad                  | bad       |
    
    ref : [[./SK_Mannequin_ThroughBlender.org][BlenderとUE4でのFBXデータやりとり結果]]
    
