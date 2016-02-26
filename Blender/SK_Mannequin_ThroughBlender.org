@@ -5,6 +5,12 @@
    UE4とBlenderで3Dモデルのデータをやりとりするとなると、現状ではFBXを使うことになる。
    で、現状でのBlenderのFBXインポートとエクスポートについて、どの程度使えるか検証してみる
    
+*** 追記
+
+    下記の内容について、情報を頂いたので以下追記
+
+    [[./Blender/ps_SK_Mannequin_ThroughBlender.org][補足、BlenderとUE4でのFBXデータやりとり結果]]
+    
 ** UE4からBlenderへ
 
    UE4で下記のボーン構造を持ったFBXを、Blenderにもっていってみる。
@@ -43,20 +49,3 @@
    モデルデータのやりとりは、マテリアルが剥がれる以外は、なんとかなりそう。
    基本blenderからUE4への一方通行だろうし
 
-
-** P.S. 
-
-   [[https://twitter.com/rarihoma/status/702846388409757696]]
-   
-   hoge_endのリーフボーンは、blenderのexport時のオプションで、追加されないように出来るとのこと
-
-   [[./img/not_add_leaf_bone.jpg]]
-
-   上記の箇所に、たしかにそんなオプションがあった。
-   BosFBXでimportしたGrayManのFBXを、オプションを無効にしてFBXexportしてみる。
-
-   ※やっぱりBosFBXで読み込むとボーンが正常に読み込めた＾＾
-   
-   [[./img/importBosFBX_exportDefaultFBX.jpg]]
-
-   すこしエラー等が起こるが、かなり改善した。

@@ -1,0 +1,25 @@
+* FBXでのデータ受け渡し						     :b2.76b: :ue4.10.4:
+
+  間違いを指摘して頂いたので以下補足
+
+** P.S. 
+
+   [[https://twitter.com/rarihoma/status/702846388409757696]]
+
+   + hoge_endのリーフボーンは、blenderのexport時のオプションで、追加されないように出来るとのこと
+   + ボーンが剣山みたいになるのは、BosFBXでimportしたら起きなかった思うので確認しておく
+
+   [[./img/fbx_import_with_BosFBX.jpg]]
+   
+   まず、BosFBXで読み込んだら、前のめりに90度倒れているのと、スケールが100倍になっている以外は綺麗に読み込めれている
+   
+   ※やっぱりBosFBXで読み込むとボーンが正常に読み込めた＾＾
+
+   [[./img/not_add_leaf_bone.jpg]]
+
+   で、defaultのFBXexportでエクスポートするとき上記の箇所に、たしかにオプションがあった。
+   ので、オプションを無効にしてFBXexportしてみる。
+
+   [[./img/importBosFBX_exportDefaultFBX.jpg]]
+
+   すこしエラー等が起こるが、改善した。マテリアルがもっていけない以外は得に問題なさそうである
