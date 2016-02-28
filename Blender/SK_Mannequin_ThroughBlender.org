@@ -45,4 +45,4 @@
 
 *** 追記
 
-    内容について、誤りを指摘して頂いたので以下に追記。[[./Blender/ps_SK_Mannequin_ThroughBlender.org][補足、BlenderとUE4でのFBXデータやりとり結果]]
+    内容について、誤りを指摘して頂いたので以下に追記。[[./ps_SK_Mannequin_ThroughBlender.org][補足、BlenderとUE4でのFBXデータやりとり結果]]
