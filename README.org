@@ -30,3 +30,10 @@
 *** Scale UE4 Editor Font Size
     [[https://forums.unrealengine.com/showthread.php?15158-High-resolution-display-support-for-editor][UE4エディタのフォントサイズ変更]]
 
+** Book
+
+   - [[http://www.amazon.co.jp/exec/obidos/ASIN/4862462553/dedicatus540e-22/ref=nosim/][Unreal Engine 4で極めるゲーム開発:サンプルデータと動画で学ぶUE4ゲーム制作プロジェクト]]
+
+   - [[http://www.amazon.co.jp/exec/obidos/ASIN/4798044806/dedicatus540e-22/ref=nosim/][UnrealEngine4マテリアルデザイン入門 (GAME DEVELOPER BOOKS)]]
+
+   - [[http://www.amazon.co.jp/exec/obidos/ASIN/B01BLEQVYM/dedicatus540e-22/ref=nosim/][Unreal Engine 4 ブループリント逆引きリファレンス ゲーム・映像制作現場で役立つビジュアルスクリプトガイド]]
