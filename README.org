@@ -1,8 +1,5 @@
 * Blender
 
-** Rigging for UE4
-   [[https://forums.unrealengine.com/showthread.php?89305-Blender-UE4-Rigg]]
-
 ** export fbx with blender
    [[./Blender/exportFBX.org][blenderからUE4へのfbx受け渡し]]
    - [[./Blender/SK_Mannequin_ThroughBlender.org][BlenderとUE4でのFBXデータやりとり結果]]
@@ -32,5 +29,4 @@
 
 *** Scale UE4 Editor Font Size
     [[https://forums.unrealengine.com/showthread.php?15158-High-resolution-display-support-for-editor][UE4エディタのフォントサイズ変更]]
-
 

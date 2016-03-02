@@ -56,6 +56,8 @@
 
 ** UE4の標準Rigg
 
+   ※UE4の標準Riggとは腰構造が違う？
+
    - [[https://docs.unrealengine.com/latest/JPN/Engine/Content/Tools/MayaRiggingTool/index.html][Maya アニメーション リギング ツールセット]]
      - [[https://forums.unrealengine.com/showthread.php?89305-Blender-UE4-Rigg][Blender UE4 Rigg]]
 
